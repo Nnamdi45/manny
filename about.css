@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    width: 700px;
+}
+div{
+    margin-left: 400px;
+    margin-top: 40px;
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 10px #0a2c6b;
+    border: 3px orange;
+}
+h4, h3, ul{
+    margin-bottom: 30px;
+}
+h5{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 9px;
+}

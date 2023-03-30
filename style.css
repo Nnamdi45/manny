@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #343436;
+  }
+  
+  nav {
+    display: flex;
+    width: 90%;
+  }
+
+  .logo{
+    width: 100px;
+    border-radius: 15px;
+  }
+  
+  ul li a {
+    margin-left: 1.5em;
+  }
+  
+  a.logo {
+    margin-right: auto;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin-left: 650px;
+    padding: 0px;
+    align-items: center;
+    gap: 100px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    font-size: 1.25em;
+  }
+  
+  a::after {
+    content:"";
+    top: 80%;
+    border-bottom: 2px solid #F8E71C;
+    transition: all 0.35s;
+    position: absolute;
+  }
+  
+  a:hover::after {
+    transition: all 0.35s;
+  }
+  
+  a::after {
+    right: 50%;
+    left: 50%;
+  }
+  
+  a:hover::after {
+    right: 0;
+    left: 0;
+  }
+  
+  section{
+    margin-left: 390px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  img{
+    width: 500px;
+  }
+
+  h3{
+     margin-left: 85px;
+  }
+
+  p{
+    margin-left: 30px;
+    color: orangered;
+  }
+
+  p:hover{
+    text-decoration: underline;
+    color: #343436;
+  }
+
+  strong{
+    color: black;
+  }
+  footer{
+    background: orangered;
+    display: flex;
+  }
+
+.splz{
+  margin-left: 100px;
+  padding: 70px;
+  font-size: larger;
+  width: 400px;
+}
+
+.splz:hover{
+  background-color: #0a2c6b;
+  cursor: all-scroll;
+  color: beige;
+  font-style: oblique;
+  border-radius: 2%;
+  
+}
+
+.splz h4 dt{
+  padding: 30px 0;
+}
+
+.splz h4{
+  text-align: center;
+}
+
+.contact{
+   margin-left: 200px;
+   padding: 70px;
+  }
+
+  .contact h4{
+    text-align: center;
+  }
+
+.contact:hover{
+  background-color: #0a2c6b;
+  cursor: all-scroll;
+  color: beige;
+  font-style: oblique;
+  border-radius: 2%;
+    
+}
+
+address{
+  gap: 100px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+  .fb{
+    width: 50px;
+    row-gap: 70%;
+  }
+  
+  
+
+  @media (max-width: 1024px) {
+
+   /* wrapper{
+      margin-right: 100%;
+      width: 100%;
+    }
+    
+    nav {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    .logo{
+      width: 100%;
+      margin-top: 40px;
+      margin-right: 120px;
+    }
+    
+    a.logo {
+      margin-top: 1.5em;
+      margin-bottom: 1.5em;
+      margin-right: 0px;
+      
+    }
+    
+    ul {
+      margin-bottom: 1em;
+      justify-content: space-between;
+      margin-right: 170px;
+
+    }
+    
+    ul li a {
+      margin-left: 0px;
+    }*/
+
+    
+  }
+  
+  @media (max-width: 768px) {
+   /* a.logo {
+      width: 50%;
+      margin: 1.5em;
+    }*/
+
+   .logo{
+      width: 40%;
+      margin-right: 300px;
+    }
+
+    nav {
+      /*flex-direction: column;
+      align-items: center;*/
+      width: 100%;
+      margin-right: 300px;
+    
+    ul {
+      flex-direction: column;
+      width: 50%;
+      margin-right: 600px;
+    }
+    
+    ul li {
+     /* margin: 0.3em;
+      text-align: center;*/
+      margin-right: 300px;
+    }
+    
+    ul li a {
+      margin-left: 0px;
+    }
+
+   /* section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  img{
+    width: 70%;
+    align-items: center;
+    margin-right: 100px;
+  }
+
+  h3{
+    text-align: center;
+     margin-right: 85px;
+     border: solid red;
+  }
+
+  p{
+    margin-right: 30px;
+    color: orangered;
+  }
+
+  p:hover{
+    text-decoration: underline;
+    color: #343436;
+  }
+
+  strong{
+    color: black;
+  }
+  footer{
+    background: orangered;
+    display: flex;
+  }
+
+.splz{
+  margin-left: 100px;
+  padding: 70px;
+  font-size: larger;
+  width: 100%;
+}
+
+.splz:hover{
+  background-color: #0a2c6b;
+  cursor: all-scroll;
+  color: beige;
+  font-style: oblique;
+  border-radius: 2%;
+  
+}
+
+.splz h4 dt{
+  padding: 30px 0;
+}
+
+.splz h4{
+  text-align: center;
+}
+
+.contact{
+   margin-left: 200px;
+   padding: 70px;
+  }
+
+  .contact h4{
+    text-align: center;
+  }
+
+.contact:hover{
+  background-color: #0a2c6b;
+  cursor: all-scroll;
+  color: beige;
+  font-style: oblique;
+  border-radius: 2%;*/
+    
+}
+
+address{
+  gap: 100px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+  .fb{
+    width: 50%;
+    row-gap: 70%;
+  }
+  
+  }
+  
